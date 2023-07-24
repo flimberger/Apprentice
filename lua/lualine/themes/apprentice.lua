@@ -1,4 +1,5 @@
-local p = require('apprentice/palette')
+local p = require('apprentice').palette
+
 return {
 	normal = {
 		a = { bg = p.light_blue, fg = p.darker_grey },

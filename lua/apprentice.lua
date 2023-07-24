@@ -1,4 +1,6 @@
-return {
+local M = {}
+
+M.palette = {
   almost_black   = '#1c1c1c',
   darker_grey    = '#262626',
   dark_grey      = '#303030',
@@ -24,3 +26,5 @@ return {
   DiffChange     = '#dfdfdf',
   DiffText       = '#afafaf',
 }
+
+return M
